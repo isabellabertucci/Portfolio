@@ -86,15 +86,17 @@ export default {
 }
 
 @media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-  }
+.header{
+  padding: 1rem;
+  margin: 0;
+}
 
   .nav-header {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+  
   }
 
 
