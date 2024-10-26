@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #002A3A;
+    --text-color: #FFFFFF;
+    --highlight-color: #E9C9BC;
+    --footer-bg-color: #E7EFF4;
+  }
+
+  *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif,;
+    line-height: 1.5;
+    justify-content: center;
+  }
+
+  
+
+
+
+ 
+  
