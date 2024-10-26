@@ -2,7 +2,8 @@
   <nav class="header">
     <div class="nav-header">
       <h1>Isabella Bertucci</h1>
-      <span class="status">Available <span class="online"></span></span>
+      <div class="status">Available <span class="online"></span>
+      </div>
     </div>
     <div class="social-links">
       <a href="https://www.behance.net/isabellabertucci" target="_blank" aria-label="Behance">
@@ -42,7 +43,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px; 
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -52,9 +53,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px; 
+  max-width: 1400px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 1rem 2rem;
 }
 
@@ -69,11 +70,12 @@ export default {
   color: var(--bg-color);
   margin-left: 1rem;
 }
+
 .online {
-  display: inline-block; 
-  width: 8px; 
+  display: inline-block;
+  width: 8px;
   height: 8px;
-  background-color: #2FC37C; 
+  background-color: #2FC37C;
   border-radius: 50%;
   margin-left: 4px;
 }
@@ -84,10 +86,21 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
   .nav-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .status {
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 0;
     text-align: center;
   }
 

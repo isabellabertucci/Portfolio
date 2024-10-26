@@ -34,7 +34,7 @@ export default {
  
 }
 
-main {
+main, html {
   display: flex;
   flex-direction: column;
   width: 100%;
