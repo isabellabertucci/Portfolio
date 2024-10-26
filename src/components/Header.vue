@@ -90,16 +90,14 @@ export default {
   .header {
     padding: 1rem;
     margin: 0;
-    position: fixed top 0;
   }
 
   .nav-header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    text-align: center;
   }
-  
+
   h1{
     font-size: 1.4rem; /* Ajusta o tamanho da fonte */
     margin-bottom: 0.5rem;
@@ -107,8 +105,8 @@ export default {
   }
 
   .status {
-    padding: 0.5rem 0.5rem;
-    margin: 0rem 0;
+    margin: 0rem 0rem;
+    text-align: center;
   }
 
   .social-links {

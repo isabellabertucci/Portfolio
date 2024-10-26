@@ -34,6 +34,7 @@ export default {
   gap: 4rem;
   justify-content: center;
   margin-bottom: 2rem;
+  margin-left: 0;
 }
 
 .img-container {
@@ -61,9 +62,18 @@ img {
 }
 
 @media (max-width: 768px) {
-  .projects-list {
-    display: flex;
+
+  .project-list {
     flex-direction: column;
+    align-items: start;
+    gap: 1.5rem; 
+    margin: 0;
+  }
+
+  .img-container {
+    max-width: 300px; /* Limita a largura máxima */
+    height: auto;
   }
 }
+
 </style>

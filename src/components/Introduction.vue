@@ -149,6 +149,9 @@ span {
   margin-bottom: 2rem;
   font-weight: 600;
 }
+.technology-illustration{
+  object-fit: cover;
+}
 
 @media (max-width: 1000px) {
   .hero {
